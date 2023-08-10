@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader type="text" status="new">
+         <fileDesc>
+<titleStmt>
+                
+<title>Mosella</title>
+                <author ref="http://viaf.org/viaf/109786483/">Ausonius Burdigalensis<date>309-394</date></author>
+</titleStmt>
+  <editionStmt>
+              <edition>eclectic edition, apparatus not encoded</edition>
+              <editor>Hugh G. Evelyn-White</editor>
+         </editionStmt>
+
+  <idno>AusBur.Mose</idno>
+  
+            
+                
+                <funder n="org:Mellon">The Mellon Foundation</funder>
+            
+            
+		<publisher>Trustees of Tufts University</publisher>
+		<pubPlace>Medford, MA</pubPlace>
+		<authority>Perseus Project</authority>
+		<availability status="free">
+    <p>This text may be freely distributed, subject to the following
+    restrictions:</p>
+    <list>
+	<item>You credit Perseus, as follows, whenever you use the document:
+	    <quote>Text provided by Perseus Digital Library, with funding from The Mellon Foundation. Original version available for viewing and download at http://www.perseus.tufts.edu/hopper/.</quote>
+	</item>
+	<item>You leave this availability statement intact.</item>
+	<item>You use it for non-commercial purposes only.</item>
+	<item>You offer Perseus any modifications you make.</item>
+    </list>
+</availability>
+
+            <sourceDesc default="NO">
+                
+                    <publicationStmt>
+                        <title>Ausonius. Works.</title>
+                        
+<title>Ausonius, Vol 1</title>
+                        <author>Ausonius, Decimus Magnus</author>
+
+                        <editor>Hugh G. Evelyn-White</editor>
+          
+                            <publisher>William Heinemann Ltd.; Harvard University Press</publisher>
+                            <pubPlace>London; Cambridge, Massachusetts</pubPlace>
+                            <date>1919</date>
+                        
+               </publicationStmt>
+               
+                
+                <p>Keyboarding</p></sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+         <projectDesc>this file was encoded in TEI xml for the University of Zurich's <hi>Corpus Corporum</hi> project (www.mlat.uzh.ch) by Ph. Roelli in 2017</projectDesc>
+          <editorialDecl>
+             <normalization>Classical Latin orthography</normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date></date>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item></item>
+		  <item></item>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme='genre'>
+  		 <list>
+   			<item></item>
+  		</list>
+  		</keywords>
+  		<keywords scheme='period'>
+ 		 <list>
+   			<item></item>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>            
+<div1 type="section" n="praef" org="uniform" sample="complete"><head>§ 1</head>
+<p>
+<l n="1">Transieram celerem nebuloso flumine Navam,</l>
+<l>addita miratus veteri nova moenia Vinco,</l>
+<l>aequavit Latias ubi quondam Gallia Cannas</l>
+<l>infletaeque iacent inopes super arva catervae.</l>
+<l n="5">unde iter ingrediens nemorosa per avia solum </l>
+<l>et nulla humani spectans vestigia cultus</l>
+<l>praetereo arentem sitientibus undique terris</l>
+<l>Dumnissum riguasque perenni fonte Tabernas</l>
+<l>arvaque Sauromatum nuper metata colonis:</l>
+<l n="10">et tandem primis Belgarum conspicor oris </l>
+<l>Noiomagum, divi castra inclita Constantini.</l>
+<l>purior hic campis aer Phoebusque sereno</l>
+<l>lumine purpureum reserat iam sudus Olympum.</l>
+<l>nec iam, consertis per mutua vincula ramis,</l>
+<l n="15">quaeritur exclusum viridi caligine caelum: </l>
+<pb n="v.1.p.226"/>
+<l>sed liquidum iubar et rutilam visentibus aethram</l>
+<l>libera perspicui non invidet aura diei.</l>
+<l>in speciem quin me patriae cultumque nitentis</l>
+<l>Burdigalae blando pepulerunt omnia visu,</l>
+<l n="20">culmina villarum pendentibus edita ripis </l>
+<l>et virides Baccho colles et amoena fluenta</l>
+<l>subter labentis tacito rumore Mosellae.</l>
+<l>Salve, amnis laudate agris, laudate colonis,</l>
+<l>dignata imperio debent cui moenia Belgae:</l>
+<l n="25">amnis odorifero iuga vitea consite Baccho, </l>
+<l>consite gramineas, amnis viridissime, ripas:</l>
+<l>naviger, ut pelagus, devexas pronus in undas,</l>
+<l>ut fluvius, vitreoque lacus imitate profundo</l>
+<l>et rivos trepido potis aequiperare meatu,</l>
+<l n="30">et liquido gelidos fontes praecellere potu; </l>
+<l>omnia solus habes, quae fons, quae rivus et amnis</l>
+<l>et lacus et bivio refluus manamine pontus,</l>
+<l>tu placidis praelapsus aquis nec murmura venti</l>
+<l>ulla, nec occulti pateris luctamina saxi:</l>
+<l n="35">non spirante 1 vado rapidos properare 2 meatus </l>
+<l>cogeris, extantes medio non aequore terras</l>
+<l>interceptus habes, iusti ne demat honorem</l>
+<l>nominis, exclusum si dividat insula flumen,</l>
+<l>tu duplices sortite vias, et cum amne secundo</l>
+<l n="40">defluis, ut celeres feriant vada concita remi, </l>
+<l>et cum per ripas nusquam cessante remulco</l>
+<pb n="v.1.p.228"/>
+<l>intendunt collo malorum vincula nautae.</l>
+<l>ipse tuos quotiens miraris in amne recursus,</l>
+<l>legitimosque putas prope segnius ire meatus?</l>
+<l n="45">tu neque limigenis ripam praetexeris ulvis, </l>
+<l>nec piger inmundo perfundis litora caeno:</l>
+<l>sicca in primores pergunt vestigia lymphas.</l>
+<l>i nunc, et Phrygiis sola levia consere crustis</l>
+<l>tendens marmoreum laqueata per atria campum,</l>
+<l n="50">ast ego despectis, quae census opesque dederunt, </l>
+<l>naturae mirabor opus, non dira nepotum</l>
+<l>laetaque iacturis ubi luxuriatur egestas,</l>
+<l>hic solidae sternunt umentia litora harenae,</l>
+<l>nec retinent memores vestigia pressa figuras.</l>
+<l n="55">Spectans vitreo per levia terga profundo, </l>
+<l>secreti nihil amnis habens: utque almus aperto</l>
+<l>panditur intuitu 1 liquidis obtutibus aer</l>
+<l>nec placidi prohibent oculos per inania venti,</l>
+<l>sic demersa procul durante per intima visu</l>
+<l n="60">cernimus, arcanique patet penetrale profundi, </l>
+<l>cum vada lene meant liquidarum et lapsus aquarum</l>
+<l>prodit caerulea dispersas luce figuras:</l>
+<l>quod sulcata levi crispatur harena meatu,</l>
+<l>inclinata tremunt viridi quod gramina fundo:</l>
+<l n="65">usque sub ingenuis agitatae fontibus herbae </l>
+<l>vibrantes patiuntur aquas lucetque latetque</l>
+<l>calculus et viridem distinguit glarea muscum,</l>
+<l>tota Caledoniis talis patet ora Britannis,</l>
+<l>cum virides algas et rubra corallia nudat</l>
+<l n="70">aestus et albentes concharum germina bacas, </l>
+<l>delicias hominum, locupletibus atque sub undis
+   <pb n="v.1.p.230"/></l>
+<l>adsimulant nostros imitata monilia cultus:</l>
+<l>haud aliter placidae subter vada laeta Mosellae</l>
+<l>detegit admixtos non concolor herba lapillos.</l>
+<l n="75">Intentos tamen usque oculos errore fatigant </l>
+<l>interludentes, examina lubrica, pisces,</l>
+<l>sed neque tot species obliquatosque natatus</l>
+<l>quaeque per adversum succedunt agmina flumen,</l>
+<l>nominaque et cunctos numerosae stirpis alumnos</l>
+<l n="80">edere fas aut ille sinit, cui cura secundae </l>
+<l>sortis et aequorei cessit tutela tridentis.</l>
+<l>tu mihi flumineis habitatrix Nais in oris</l>
+<l>squamigeri gregis ede choros liquidoque sub alveo</l>
+<l>dissere caeruleo fluitantes amne catervas.</l>
+<l n="85">Squameus herbosas capito inter lucet harenas, </l>
+<l>viscere praetenero fartim congestus aristis</l>
+<l>nec duraturus post bina trihoria mensis,</l>
+<l>purpureisque salar stellatus tergora guttis</l>
+<l>et nullo spinae nociturus acumine rhedo</l>
+<l n="90">effugiensque oculos celeri levis umbra natatu. </l>
+<l>Juque per obliqui fauces vexate Saravi,</l>
+<l>qua bis terna fremunt scopulosis ostia pilis,</l>
+<l>cum defluxisti famae maioris in amnem,</l>
+<l>liberior laxos exerces, barbe, natatus:</l>
+<l n="95">tu melior peiore aevo, tibi contigit omni </l>
+<l>spirantum ex numero non inlaudata senectus.</l>
+<pb n="v.1.p.232"/>
+<l>Nec te puniceo rutilantem viscere, salmo,</l>
+<l>transierim, latae cuius vaga verbera caudae</l>
+<l>gurgite de medio summas referuntur in undas,</l>
+<l n="100">occultus placido cum proditur aequore pulsus. </l>
+<l>tu loricato squamosus pectore, frontem</l>
+<l>lubricus et dubiae facturus fercula cenae,</l>
+<l>tempora longarum fers incorrupte morarum,</l>
+<l>praesignis maculis capitis, cui prodiga nutat</l>
+<l n="105">alvus opimatoque fluens abdomine venter. </l>
+<l>quaeque per Illyricum, per stagna binominis Histri</l>
+<l>spumarum indiciis caperis, mustela, natantum,</l>
+<l>in nostrum subvecta fretum, ne laeta Mosellae</l>
+<l>flumina tam celebri defrudarentur alumno.</l>
+<l n="110">quis te naturae pinxit color! atra superne </l>
+<l>puncta notant tergum, qua lutea circuit iris;</l>
+<l>lubrica caeruleus perducit tergora fucus;</l>
+<l>corporis ad medium fartim pinguescis, at illinc</l>
+<l>usque sub extremam squalet cutis arida caudam.</l>
+<l n="115">Nec te, delicias mensarum, perca, silebo, </l>
+<l>amnigenos inter pisces dignande marinis,</l>
+<l>solus puniceis facilis contendere mullis:</l>
+<l>nam neque gustus iners solidoque in corpore partes</l>
+<l>segmentis coeunt, sed dissociantur aristis.</l>
+<l n="120">hic etiam Latio risus praenomine, cultor </l>
+<l>stagnorum, querulis vis infestissima ranis,</l>
+<l>lucius, obscuras ulva caenoque lacunas</l>
+<l>obsidet, hic nullos mensarum lectus ad usus</l>
+<l>fervet fumosis olido nidore popinis.</l>
+<pb n="v.1.p.234"/>
+<l n="125">Quis non et virides, vulgi solacia, tineas </l>
+<l>norit et alburnos, praedam puerilibus hamis,</l>
+<l>stridentesque focis, obsonia plebis, alausas?</l>
+<l>teque inter species geminas neutrumque et utrumque,</l>
+<l>qui nec dum salmo, nec iam salar ambiguusque</l>
+<l n="130">amborum medio, sario, intercepte sub aevo? </l>
+<l>tu quoque flumineas inter memorande cohortes,</l>
+<l>gobio, non geminis maior sine pollice palmis,</l>
+<l>praepinguis, teres, ovipara congestior alvo</l>
+<l>propexique iubas imitatus, gobio, barbi.</l>
+<l n="135">Nunc, pecus aequoreum, celebrabere, magne silure: </l>
+<l>quem velut Actaeo perductum tergora olivo</l>
+<l>amnicolam delphina reor: sic per freta magnum</l>
+<l>laberis et longi vix corporis agmina solvis</l>
+<l>aut brevibus deprensa vadis aut fluminis ulvis.</l>
+<l n="140">at cum tranquillos moliris in amne meatus, </l>
+<l>te virides ripae, te caerula turba natantum,</l>
+<l>te liquidae mirantur aquae: diffunditur alveo</l>
+<l>aestus et extremi procurrunt margine fluctus,</l>
+<l>talis Atlantiaco quondam ballena profundo,</l>
+<l n="145">cum vento motuve suo telluris ad oras </l>
+<l>pellitur: exclusum exundat mare magnaque surgunt</l>
+<l>aequora vicinique timent decrescere montes,</l>
+<l>hic tamen, hic nostrae mitis ballena Mosellae</l>
+<l>exitio procul est magnoque honor additus amni.</l>
+<l n="150">Iam liquidas spectasse vias et lubrica pisces </l>
+<l>agmina multiplicesque satis numerasse catervas,</l>
+<l>inducant aliam spectacula vitea pompam</l>
+<l>sollicitentque vagos Baccheia munera visus,
+   <pb n="v.1.p.236"/></l>
+<l>qua sublimis apex longo super ardua tractu</l>
+<l n="155">et rupes et aprica iugi flexusque sinusque </l>
+<l>vitibus adsurgunt naturalique theatro.</l>
+<l>Gauranum sic alma iugum vindemia vestit</l>
+<l>et Rhodopen proprioque nitent Pangaea Lyaeo;</l>
+<l>sic viret Ismarius super aequora Thracia collis;</l>
+<l n="160">sic mea flaventem pingunt vineta Garumnam. </l>
+<l>summis quippe iugis tendentis in ultima clivi</l>
+<l>conseritur viridi fluvialis margo Lyaeo.</l>
+<l>laeta operum plebes festinantesque coloni</l>
+<l>vertice nunc summo properant, nunc deiuge dorso,</l>
+<l n="165">certantes stolidis clamoribus, inde viator </l>
+<l>riparum subiecta terens, hinc navita labens,</l>
+<l>probra canunt seris cultoribus: adstrepit ollis</l>
+<l>et rupes et silva tremens et concavus amnis.</l>
+<l>Nec solos homines delectat scaena locorum:</l>
+<l n="170">hic ego et agrestes Satyros et glauca tuentes </l>
+<l>Naidas extremis credam concurrere ripis,</l>
+<l>capripedes agitat cum laeta protervia Panas</l>
+<l>insultantque vadis trepidasque sub amne sorores</l>
+<l>terrent, indocili pulsantes verbere fluctum;</l>
+<l n="175">saepe etiam mediis furata e collibus uvas </l>
+<l>inter Oreiadas Panope fluvialis amicas</l>
+<l>fugit lascivos paganica numina Faunos.</l>
+<l>dicitur et, medio cum sol stetit igneus orbe,</l>
+<l>ad commune fretum Satyros vitreasque sorores</l>
+<pb n="v.1.p.238"/>
+<l n="180">consortes celebrare choros, cum praebuit horas </l>
+<l>secretas hominum coetu flagrantior aestus.</l>
+<l>tune insultantes sua per freta ludere Nymphas</l>
+<l>et Satyros mersare vadis rudibusque natandi</l>
+<l>per medias exire manus, dum lubrica falsi</l>
+<l n="185">membra petunt liquidosque favent pro corpore fluctus.</l>
+<l>sed non haec spectata ulli nec cognita visu </l>
+<l>fas mihi sit pro parte loqui: secreta tegatur</l>
+<l>et commissa suis lateat reverentia rivis.</l>
+<l>Illa fruenda palam species, cum glaucus opaco</l>
+<l n="190">respondet colli fluvius, frondere videntur </l>
+<l>fluminei latices et palmite consitus amnis,</l>
+<l>quis color ille vadis, seras cum propulit umbras</l>
+<l>Hesperus et viridi perfundit monte Mosellam!</l>
+<l>tota natant crispis iuga motibus et tremit absens</l>
+<l n="195">pampinus et vitreis vindemia turget in undis. </l>
+<l>adnumerat virides derisus navita vites,</l>
+<l>navita caudiceo fluitans super aequora lembo</l>
+<l>per medium, qua sese amni confundit imago</l>
+<l>collis et umbrarum confinia conserit amnis.</l>
+<l n="200">Haec quoque quam dulces celebrant spectacula pompas, </l>
+<l>remipedes medio certant cum flumine lembi</l>
+<pb n="v.1.p.240"/>
+<l>et varios ineunt flexus viridesque per oras</l>
+<l>stringunt attonsis pubentia germina pratis!</l>
+<l>puppibus et proris alacres gestire magistros</l>
+<l n="205">impubemque manum super amnica terga vagantem </l>
+<l>dum spectat <add>viridis qua surgit ripa colonus,</add>
+<add>non sentit</add>1 transire diem, sua seria ludo</l>
+<l>posthabet 2; excludit veteres nova gratia curas.</l>
+<l>quales Cumano despectat in aequore ludos</l>
+<l>Liber, sulphurei cum per iuga consita Gauri</l>
+<l n="210">perque vaporiferi graditur vineta Vesevi, </l>
+<l>cum Venus Actiacis Augusti laeta triumphis</l>
+<l>ludere lascivos fera proelia iussit Amores, .</l>
+<l>qualia Niliacae classes Latiaeque triremes</l>
+<l>subter Apollineae gesserunt Leucados arces;</l>
+<l n="215">aut Pompeiani Mylasena pericula belli </l>
+<l>Euboicae referunt per Averna sonantia cumbae;</l>
+<l>innocuos ratium pulsus pugnasque iocantes</l>
+<l>naumachiae Siculo quales spectante Peloro</l>
+<l>caeruleus viridi reparat sub imagine pontus:</l>
+<l n="220">non aliam speciem petulantibus addit ephebis </l>
+<l>pubertasque amnis et picti rostra phaseli.</l>
+<l>hos Hyperionio cum sol perfuderit aestu,</l>
+<l>reddit nautales vitreo sub gurgite formas</l>
+<l>et redigit pandas inversi corporis umbras.</l>
+<l n="225">utque agiles motus dextra laevaque frequentant </l>
+<pb n="v.1.p.242"/>
+<l>et commutatis alternant pondera remis,</l>
+<l>unda refert alios simulacra umentia nautas.</l>
+<l>ipsa suo gaudet simulamine nautica pubes,</l>
+<l>fallaces fluvio mirata redire figuras.</l>
+<l n="230">sic, ubi compositos ostentatura capillos </l>
+<l>(candentem late speculi explorantis honorem</l>
+<l>cum primum carae nutrix admovit alumnae)</l>
+<l>laeta ignorato fruitur virguncula ludo</l>
+<l>germanaeque putat formam spectare puellae:</l>
+<l n="235">oscula fulgenti dat non referenda metallo </l>
+<l>aut fixas praetemptat acus aut frontis ad oram</l>
+<l>vibratos captat digitis extendere crines:</l>
+<l>talis ad umbrarum ludibria nautica pubes</l>
+<l>ambiguis fruitur veri falsique figuris.</l>
+<l n="240">Iam vero accessus faciles qua ripa ministrat, </l>
+<l>scrutatur toto populatrix turba profundo</l>
+<l>heu male defensos penetrali flumine pisces,</l>
+<l>hic medio procul amne trahens umentia lina</l>
+<l>nodosis decepta plagis examina verrit;</l>
+<l n="245">ast hic, tranquillo qua labitur agmine flumen, </l>
+<l>ducit corticeis fluitantia retia signis;</l>
+<l>ille autem scopulis deiectas pronus in undas</l>
+<l>inclinat lentae convexa cacumina virgae,</l>
+<l>inductos escis iaciens letalibus hamos.</l>
+<l n="250">quos ignara doli postquam vaga turba natantum </l>
+<l>rictibus invasit patulaeque per intima fauces</l>
+<l>sera occultati senserunt vulnera ferri,</l>
+<l>dum trepidant, subit indicium crispoque tremori</l>
+<l>vibrantis saetae nutans consentit harundo,</l>
+<l n="255">nec mora et excussam stridenti verbere praedam </l>
+<l>dexter in obliquum raptat puer; excipit ictum
+   <pb n="v.1.p.244"/></l>
+<l>spiritus, ut raptis quondam per inane flagellis</l>
+<l>aura crepat motoque adsibilat aere ventus.</l>
+<l>exultant udae super arida saxa rapinae</l>
+<l n="260">luciferique pavent letalia tela diei. </l>
+<l>cuique sub amne suo mansit vigor, aere nostro</l>
+<l>segnis anhelatis vitam consumit in auris.</l>
+<l>iam piger invalido vibratur corpore plausus,</l>
+<l>torpida supremos patitur iam cauda tremores</l>
+<l n="265">nec coeunt rictus, haustas sed hiatibus auras . </l>
+<l>reddit mortiferos expirans branchia flatus.</l>
+<l>sic, ubi fabriles exercet spiritus ignes,</l>
+<l>accipit alterno cohibetque foramine ventos</l>
+<l>lanea fagineis adludens parma cavernis. </l>
+<l n="270">vidi egomet quosdam leti sub fine trementes </l>
+<l>collegisse animas, mox in sublime citatos</l>
+<l>cernua subiectum praeceps dare corpora in amnem,</l>
+<l>desperatarum potientes rursus aquarum.</l>
+<l>quos impos damni puer inconsultus ab alto</l>
+<l n="275">impetit et stolido captat prensare natatu. </l>
+<l>sic Anthedonius Boeotia per freta Glaucus,</l>
+<l>gramina gustatu postquam exitialia Circes</l>
+<l>expertus carptas moribundis piscibus herbas</l>
+<l>sumpsit, Carpathium subiit novus accola pontum.</l>
+<l n="280">ille hamis et rete potens, scrutator operti </l>
+<l>Nereos, aequoream solitus converrere Tethyn, </l>
+<l>inter captivas fluitavit praedo catervas.</l>
+<l>Talia despectant longo per caerula tractu</l>
+<l>pendentes saxis instanti culmine villae,</l>
+<pb n="v.1.p.246"/>
+<l n="285">quas medius dirimit sinuosis flexibus errans </l>
+<l>amnis, et alternas comunt praetoria ripas.</l>
+<l>Quis modo Sestiacum pelagus, Nepheleidos Helles</l>
+<l>aequor, Abydeni freta quis miretur ephebi?</l>
+<l>quis Chalcedonio constratum ab litore pontum,</l>
+<l n="290">regis opus magni, mediis euripus ubi undis </l>
+<l>Europaeque Asiaeque vetat concurrere terras?</l>
+<l>non hic dira freti rabies, non saeva furentum</l>
+<l>proelia caurorum; licet hic commercia linguae</l>
+<l>iungere et alterno sermonem texere pulsu,</l>
+<l n="295">blanda salutiferas permiscent litora voces, </l>
+<l>et voces et paene manus: resonantia utrimque</l>
+<l>verba refert concurrens fluctibus echo. </l>
+<l>Quis potis innumeros cultusque habitusque retexens</l>
+<l>pandere tectonicas per singula praedia formas?</l>
+<l n="300">non hoc spernat opus Gortynius aliger, aedis </l>
+<l>conditor Euboicae, casus quem fingere in auro</l>
+<l>conantem Icarios patrii pepulere dolores:</l>
+<l>non Philo Cecropius, non qui laudatus ab hoste</l>
+<l>clara Syracosii traxit certamina belli,</l>
+<l n="305">forsan et insignes hominumque operumque labores </l>
+<pb n="v.1.p.248"/>
+<l>hic habuit decimo celebrata volumine Marcei</l>
+<l>hebdomas, hic clari viguere Menecratis artes</l>
+<l>atque Ephesi spectata manus vel in arce Minervae</l>
+<l>Ictinus, magico cui noctua perlita fuco</l>
+<l n="310">adlicit omne genus volucres perimitque tuendo. </l>
+<l>conditor hic forsan fuerit Ptolomaidos aulae</l>
+<l>Dinochares, quadrata cui in fastigia cono</l>
+<l>surgit ipsa suas consumit pyramis umbras,</l>
+<l>iussus ob incesti qui quondam foedus amoris</l>
+<l n="315">Arsinoen Pharii suspendit in aere templi. </l>
+<l>spirat enim tecti testudine virus achates</l>
+<l>adflatamque trahit ferrato crine puellam.</l>
+<l>Hos ergo aut horum similes est credere dignum</l>
+<l>Belgarum in terris scaenas posuisse domorum,</l>
+<l n="320">molitos celsas fluvii decoramina villas. </l>
+<l>haec est natura sublimis in aggere saxi,</l>
+<pb n="v.1.p.250"/>
+<l>haec procurrentis fundata crepidine ripae,</l>
+<l>haec refugit captumque sinu sibi vindicat amnem.</l>
+<l>illa tenens collem, qui plurimus imminet amni,</l>
+<l n="325">usurpat faciles per culta, per aspera visus </l>
+<l>utque suis fruitur dives speculatio terris,</l>
+<l>quin etiam riguis humili pede condita pratis</l>
+<l>compensat celsi bona naturalia montis</l>
+<l>sublimique minans irrumpit in aethera tecto,</l>
+<l n="330">ostentans altam, Pharos ut Memphitica, turrim. </l>
+<l>huic proprium clausos consaepto gurgite pisces</l>
+<l>apricas scopulorum inter captare novales.</l>
+<l>haec summis innixa iugis labentia subter</l>
+<l>flumina despectu iam caligante tuetur,</l>
+<l n="335">atria quid memorem viridantibus adsita pratis? </l>
+<l>innumerisque super nitentia tecta columnis?</l>
+<l>quid quae fluminea substructa crepidine fumant</l>
+<l>balnea, ferventi cum Mulciber haustus operto</l>
+<l>volvit anhelatas tectoria per cava flammas,</l>
+<l n="340">inclusum glomerans aestu spirante vaporem? </l>
+<l>vidi ego defessos multo sudore lavacri</l>
+<l>fastidisse lacus et frigora piscinarum,</l>
+<l>ut vivis fruerentur aquis, mox amne refotos</l>
+<l>plaudenti gelidum flumen pepulisse natatu.</l>
+<pb n="v.1.p.252"/>
+<l n="345">quod si Cumanis huc adforet hospes ab oris, </l>
+<l>crederet Euboicas simulacra exilia Baias</l>
+<l>his donasse locis: tantus cultusque nitorque</l>
+<l>adlicit et nullum parit oblectatio luxum,</l>
+<l>Sed mihi qui tandem finis tua glauca fluenta</l>
+<l n="350">dicere dignandumque mari memorare Mosellam, </l>
+<l>innumeri quod te diversa per ostia late</l>
+<l>incurrunt amnes? quamquam differre meatus</l>
+<l>possent, sed celerant in te consumere nomen,</l>
+<l>namque et Promeae Nemesaeque adiuta meatu</l>
+<l n="355">Sura tuas properat non degener ire sub undas, </l>
+<l>Sura interceptis tibi gratificata fluentis,</l>
+<l>nobilius permixta tuo sub nomine, quam si</l>
+<l>ignoranda patri contenderet ostia Ponto,</l>
+<l>te rapidus Celbis, te marmore clarus Erubris</l>
+<l n="360">festinant famulis quam primum adlambere lymphis:</l>
+<l>nobilibus Celbis celebratus piscibus, ille </l>
+<l>praecipiti torquens cerealia saxa rotatu</l>
+<l>stridentesque trahens per levia marmora serras</l>
+<l>audit perpetuos ripa ex utraque tumultus,</l>
+<l n="365">praetereo exilem Lesuram tenuemque Drahonum </l>
+<l>nec fastiditos Salmonae usurpo fluores:</l>
+<l>naviger undisona dudum me mole Saravus</l>
+<l>tota veste vocat, longum qui distulit amnem,</l>
+<l>fessa sub Augustis ut volveret ostia muris.</l>
+<pb n="v.1.p.254"/>
+<l n="370">nec minor hoc, tacitum qui per sola pinguia labens </l>
+<l>stringit frugiferas felix Alisontia ripas.</l>
+<l>mille alii, prout quemque suus magis impetus urget,</l>
+<l>esse tui cupiunt: tantus properantibus undis</l>
+<l>ambitus aut mores, quod si tibi, dia Mosella,</l>
+<l n="375">Smyrna suum vatem vel Mantua clara dedisset, </l>
+<l>cederet Iliacis Simois memoratus in oris</l>
+<l>nec praeferre suos auderet Thybris honores.</l>
+<l>da veniam, da, Roma potens! pulsa, oro, facessat</l>
+<l>invidia et Latiae Nemesis non cognita linguae:
+<l n="379a" /><add>contigit haec melior, Thybris, tibi gloria, quod tu 1</add></l>
+<l n="380">imperii sedem Romaeque tuere penates.2 </l>
+<l>Salve, magne parens frugumque virumque, Mosella!</l>
+<l>te clari proceres, te bello exercita pubes,</l>
+<l>aemula te Latiae decorat facundia linguae,</l>
+<l>quin etiam mores et laetum fronte serena</l>
+<l n="385">ingenium natura tuis concessit alumnis. </l>
+<l>nec sola antiquos ostentat Roma Catones,</l>
+<l>aut unus tantum iusti spectator et aequi</l>
+<l>pollet Aristides veteresque inlustrat Athenas.</l>
+<l>Verum ego quid laxis nimium spatiatus habenis</l>
+<l n="390">victus amore tui praeconia detero? conde, </l>
+<l>Musa, chelyn, pulsis extremo carmine netis.</l>
+<l>tempus erit, cum me studiis ignobilis oti</l>
+<l>mulcentem curas seniique aprica foventem</l>
+<l>materiae commendet honos; cum facta viritim</l>
+<pb n="v.1.p.256"/>
+<l n="395">Belgarum patriosque canam decora inclita mores: </l>
+<l>mollia subtili nebunt mihi carmina filo</l>
+<l>Pierides tenuique aptas subtemine telas</l>
+<l>percurrent: dabitur nostris quoque purpura fusis,</l>
+<l>quis mihi tum non dictus erit? memorabo quietos</l>
+<l n="400">agricolas legumque catos fandique potentes, </l>
+<l>praesidium sublime reis; quos curia summos</l>
+<l>municipum vidit proceres propriumque senatum,</l>
+<l>quos praetextati celebris facundia ludi</l>
+<l>contulit ad veteris praeconia Quintiliani,</l>
+<l n="405">quique suas rexere urbes purumque tribunal </l>
+<l>sanguine et innocuas inlustravere secures;</l>
+<l>aut Italum populos aquilonigenasque Britannos</l>
+<l>praefecturarum titulo tenuere secundo;</l>
+<l>quique caput rerum Romam, populumque patresque,</l>
+<l n="410">tantum non primo rexit sub nomine, quamvis </l>
+<l>par fuerit primis: festinet solvere tandem</l>
+<l>errorem Fortuna suum libataque supplens</l>
+<l>praemia iam veri fastigia reddat honoris</l>
+<l>nobilibus repetenda nepotibus, at modo coeptum</l>
+<l n="415">detexatur opus, dilata et laude virorum </l>
+<l>dicamus laeto per rura virentia tractu</l>
+<l>felicem fluvium Rhenique sacremus in undas.</l>
+<l>Caeruleos nunc, Rhene, sinus hyaloque virentem</l>
+<l>pande peplum spatiumque novi metare fluenti</l>
+<pb n="v.1.p.258"/>
+<l n="420">fraternis cumulandus aquis, nec praemia in undis </l>
+<l>sola, sed augustae veniens quod moenibus urbis</l>
+<l>spectavit iunctos natique patrisque triumphos,</l>
+<l>hostibus exactis Nicrum super et Lupodunum</l>
+<l>et fontem Latiis ignotum annalibus Histri.</l>
+<l n="425">haec profligati venit modo laurea belli: </l>
+<l>hinc alias aliasque feret, vos pergite iuncti</l>
+<l>et mare purpureum gemino propellite tractu,</l>
+<l>neu vereare minor, pulcherrime Rhene, videri:</l>
+<l>invidiae nihil hospes habet, potiere perenni</l>
+<l n="430">nomine: tu fratrem famae securus adopta. </l>
+<l>dives aquis, dives Nymphis, largitor utrique</l>
+<l>alveus extendet geminis divortia ripis</l>
+<l>communesque vias diversa per ostia pandet.</l>
+<l>accedent vires, quas Francia quasque Chamaves</l>
+<l n="435">Germanique tremant: tunc verus habebere limes. </l>
+<l>a ccedet tanto geminum tibi nomen ab amni,</l>
+<l>cumque unus de fonte fluas, dicere bicornis.</l>
+<l>Haec ego, Vivisca ducens ab origine gentem,</l>
+<l>Belgarum hospitiis non per nova foedera notus,</l>
+<l n="440">Ausonius, nomen Latium, patriaque domoque </l>
+<pb n="v.1.p.260"/>
+<l>Gallorum extremos inter celsamque Pyrenen,</l>
+<l>temperat ingenuos qua laeta Aquitanica mores,</l>
+<l>audax exigua fide concino. fas mihi sacrum</l>
+<l>perstrinxisse amnem tenui libamine Musae.</l>
+<l n="445">nec laudem adfecto, veniam peto. sunt tibi multi, </l>
+<l>alme amnis, sacros qui sollicitare fluores</l>
+<l>Aomdum totamque solent haurire Aganippen.</l>
+<l>ast ego, quanta mei dederit se vena liquoris,</l>
+<l>Burdigalam cum me in patriam nidumque senectae</l>
+<l n="450">Augustus, pater et nati, mea maxima cura, </l>
+<l>fascibus Ausoniis decoratum et honore curuli</l>
+<l>mittent emeritae post munera disciplinae,</l>
+<l>latius Arctoi praeconia persequar amnis,</l>
+<l>addam urbes, tacito quas subterlaberis alveo,</l>
+<l n="455">moeniaque antiquis te prospectantia muris; </l>
+<l>addam praesidiis dubiarum condita rerum,</l>
+<l>sed modo securis non castra, sed horrea Belgis;</l>
+<l>addam felices ripa ex utraque colonos</l>
+<l>teque inter medios hominumque boumque labores</l>
+<l n="460">stringentem ripas et pinguia culta secantem. </l>
+<l>non tibi se Liger anteferet, non Axona praeceps,</l>
+<l>Matrona non, Gallis Belgisque intersita finis,</l>
+<l>Santonico refluus non ipse Carantonus aestu,</l>
+<l>concedes gelido, Durani, de monte volutus</l>
+<l n="465">amnis, et auriferum postponet Gallia Tamen </l>
+<pb n="v.1.p.262"/>
+<l>insanumque ruens per saxa rotantia late</l>
+<l>in mare purpureum, dominae tamen ante Mosellae</l>
+<l>numine adorato, Tarbellicus ibit Aturrus.</l>
+<l>Corniger externas celebrande Mosella per oras,</l>
+<l n="470">nec solis celebrande locis, ubi fonte supremo </l>
+<l>exeris auratum taurinae frontis honorem,</l>
+<l>quave trahis placidos sinuosa per arva meatus,</l>
+<l>vel qua Germanis sub portibus ostia solvis:</l>
+<l>si quis honos tenui volet adspirare camenae,</l>
+<l n="475">perdere si quis in his dignabitur otia musis, </l>
+<l>ibis in ora hominum laetoque fovebere cantu,</l>
+<l>te fontes vivique lacus, te caerula noscent</l>
+<l>flumina, te veteres pagorum gloria luci;</l>
+<l>te Druna, te sparsis incerta Druentia ripis</l>
+<l n="480">Alpinique colent fluvii duplicemque per urbem </l>
+<l>qui meat et Dextrae Rhodanus dat nomina ripae;</l>
+<l>te stagnis ego caeruleis magnumque sonoris</l>
+<l>amnibus, aequoreae te commendabo Garumnae.
+
+<pb n="v.1.p.264"/></l></p></div1> 
+
+<div1 type="section" n="epistula" org="uniform" sample="complete"><head>Epistula Symmachi ad Ausonium</head>
+<opener>Symmachus Ausonio</opener>
+<p>Petis a me litteras longiores: est hoc in nos veri amoris indicium, sed ego, qui sim paupertini ingenii mei conscius, Laconicae malo studere brevitati, quam multiiugis paginis infantiae meae maciem publicare. nec mirum, si eloquii nostri vena tenuata est, quam dudum neque ullius poematis tui neque pedestrium voluminum lectione iuvisti. unde igitur sermonis mei largam poscis usuram, qui nihil litterati faenoris credidisti? volitat tuus Mosella per manus sinusque multorum divinis a te versibus consecratus: sed tantum nostra ora praelabitur. cur me istius libelli, quaeso, exortem esse voluisti? aut <foreign lang="greek">ἀμουσότερος</foreign> tibi videbar, qui iudicare non possem, aut certe malignus, qui laudare nescirem. itaque vel ingenio meo plurimum vel moribus derogasti. et tamen contra interdictum tuum vix ad illius operis arcana perveni, velim tacere, quid sentiam; velim iusto de te silentio vindicari; sed admiratio scriptorum sensum frangit iniuriae.</p>
+<p>Novi ego istum fluvium, cum aeternorum principum
+<l n="1">iam pridem signa comitarer, parem multis,
+   
+<pb n="v.1.p.266"/> imparem maximis, hunc tu mihi inproviso clarorum versuum dignitate Aegyptio Nilo maiorem, frigidiorem Scythico Tanai clarioremque hoc nostro populari Tiberi reddidisti. nequaquam tibi crederem de Mosellae ortu ac meatu magna narranti, ni scirem, quod nec in poemate mentiaris. unde illa amnicorum piscium examina repperisti quam nominibus varia, tam coloribus, ut magnitudine distanti, sic sapore, quae tu pigmentis istius carminis supra naturae dona fucasti? atquin in tuis mensis saepe versatus cum pleraque alia, quae tunc in pretio erant, esui obiecta mirarer, numquam hoc genus piscium deprehendi, quando tibi hi pisces in libro nati sunt, qui in ferculis non fuerunt? iocari me putas atque agere nugas? ita deus me probabilem praestet, ut ego hoc tuum carmen libris Maronis adiungo. Sed iam desinam mei oblitus doloris inhaerere laudibus tuis, ne hoc quoque ad gloriam tuam trahas, quod te miramur offensi, spargas licet volumina tua et me semper excipias: fruemur tamen tuo opere, sed aliorum benignitate, vale.
+   
+<pb n="v.1.p.268"/></l></p></div1> 
+        </body></text>
+</TEI>

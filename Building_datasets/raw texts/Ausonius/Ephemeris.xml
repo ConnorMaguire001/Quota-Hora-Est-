@@ -1,0 +1,313 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Ephemeris</title>
+              <author ref="http://viaf.org/viaf/109786483">Ausonius Burdigalensis<date>309-394</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1846</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 19</title>
+           <idno>AusBur.Epheme</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<div1>
+        <head>Ephemeris</head>
+
+<l>
+<pb n="0839A"/>Mane jam clarum reserat fenestras;</l>
+<l>Jam strepit nidis vigilax hirundo.</l> 
+<l>Tu velut primam, mediamque noctem,</l>
+<l rend="indent">Parmeno, dormis.</l> 
+<l>Dormiunt glires hiemem perennem,</l>
+<l>Sed cibo parcunt. Tibi causa somni,</l>
+<l>Multa quod potas, nimiaque tendis</l>
+<l rend="indent">Mole saginam.</l> 
+<l>Inde nec flexas sonus intrat aures:</l>
+<l>Et locum mentis sopor altus urget,</l>
+<l>Nec coruscantis oculos lacessunt</l>
+<l rend="indent">Fulgura lucis.</l> 
+<l>Annuam quondam juveni quietem,</l>
+<l>Noctis et lucis vicibus manentem,</l>
+<l>Fabulae fingunt, cui Luna somnos</l>
+<l rend="indent">
+<pb n="0839B"/>Continuarit.</l> 
+<l>Surge, nugator, lacerande virgis.</l> 
+<l>Surge: ne longus tibi somnus, unde</l>
+<l>Non times, detur. Rape membra molli,</l>
+<l rend="indent">Parmeno, lecto.</l> 
+<l>Fors et haec somnum tibi cantilena</l>
+<l>Sapphico suadet modulata versu.</l> 
+<l>Lesbiae depelle modum quietis,</l>
+<l rend="indent">Acer Iambe.</l> 
+</div1>
+
+<div1>
+        <head> #Item Parecbasis.@# </head>
+<l>Puer, eia, surge: et calceos,</l>
+<l>Et linteam da sindonem.</l> 
+<l>Da, quidquid est, amictui,</l>
+<l>Quod jam parasti, ut prodeam.</l> 
+<l>
+<pb n="0839C"/>Da rore fontano abluam</l>
+<l>Manus, et os, et lumina.</l> 
+<l>Pateatque, fac, sacrarium,</l>
+<l>Nullo paratu extrinsecus.</l> 
+<l>Pia verba, vota innoxia,</l>
+<l>Rei divinae copia est.</l> 
+<l>Nec thus cremandum postulo,</l>
+<l>Nec liba crusti mellei:</l>
+<l>Foculumque vivi cespitis</l>
+<l>Vanis relinquo altaribus.</l> 
+<l>Deus precandus est mihi,</l>
+<l>Ac Filius summi Dei</l>
+<l>Majestas uniusmodi,</l>
+<l>Sociata sacro Spiritu.</l> 
+<l>Et ecce jam vota ordior:</l>
+<l>
+<pb n="0839D"/>Et cogitatio Numinis</l>
+<l>Praesentiam sentit pavens.</l> 
+<l>Pavetne quidquam spes, fides?</l> 
+</div1>
+
+<div1>
+        <head> #Oratio.@# </head>
+<l>Omnipotens, solo mentis mihi cognite cultu,</l>
+<l>Ignorate malis, et nulli ignote piorum,</l>
+<l>Principio, extremoque carens: antiquior aevo,</l>
+<l>Quod fuit, aut veniet: cujus formamque modumque</l>
+<l>
+<pb n="0840A"/>Nec mens complecti poterit, nec lingua profari:</l>
+<l>Cernere quem solus coramque audire jubentem,</l>
+<l>Fas habet, et patriam propter considere dextram:</l>
+<l>Ipse opifex rerum, rebus causa ipsa creandis,</l>
+<l>Ipse Dei Verbum, Verbum Deus, anticipator</l>
+<l>Mundi, quem facturus erat: generatus in illo</l>
+<l>Tempore, quo tempus nondum fuit: editus ante,</l>
+<l>Quam jubar, et rutilus coelum illustraret Eous:</l>
+<l>Quo sine nil actum: per quem facta omnia: cujus</l>
+<l>In coelo solium: cui subdita terra sedenti,</l>
+<l>Et mare, et obscurae chaos insuperabile noctis:</l>
+<l>Irrequies, cuncta ipse movens, vegetator inertum:</l>
+<l>Non genito genitore Deus, qui fraude superbi</l>
+<l>Offensus populi, gentes in regna vocavit,</l>
+<l>Stirpis adoptivae meliore propage colendus:</l>
+<l>
+<pb n="0840B"/>Cernere quem licuit proavis: quo numine viso,</l>
+<l>Et patrem vidisse datum: contagia nostra</l>
+<l>Qui tulit: et diri passus ludibria lethi,</l>
+<l>Esse iter aeternae docuit remeabile vitae:</l>
+<l>Nec solam remeare animam, sed corpore toto</l>
+<l>Coelestes intrare plagas, et inane sepulcri</l>
+<l>Arcanum vacuis adopertum linquere terris.</l> 
+<l rend="indent">Nate patris summi, nostroque salutifer aevo,</l>
+<l>Virtutes patrias genitor cui tradidit omnes,</l>
+<l>Nil ex invidia retinens, plenusque datorum,</l>
+<l>Pande viam precibus, patriasque haec perfer ad aures.</l> 
+<l rend="indent">Da, Pater, invictam contra omnia crimina mentem,</l>
+<l>Vipereumque nefas nocituri averte veneni.</l> 
+<l>Sit satis, antiquam serpens quod perdidit Evam,</l>
+<l>Deceptumque adjunxit Adam: nos sera nepotum</l>
+<l>
+<pb n="0840C"/>Semina, veridicis aetas praedicta prophetis,</l>
+<l>Vitemus laqueos, quos lethifer implicat anguis.</l> 
+<l>Pande viam, quae me post vincula corporis aegri</l>
+<l>In sublime ferat: puri qua lactea coeli</l>
+<l>Semita ventosae superat vaga nubila Lunae.</l> 
+<l>Qua proceres abiere pii, quaque integer olim</l>
+<l>Raptus quadrijugo penetrat super aethera curru</l>
+<l>Helias, et solido cum corpore praevius Enoch.</l> 
+<l>Da, Pater, aeterni speratam luminis auram:</l>
+<l>Si lapides non juro deos, unumque verendi</l>
+<l>Suspiciens altare sacri, libamina vitae</l>
+<l>Intemerata fero: si te Dominique, Deique,</l>
+<l>Unigenae cognosco Patrem, missumque Duobus,</l>
+<l>Qui super aequoreas volitabat Spiritus undas.</l> 
+<l>Da, Genitor, veniam, cruciataque pectora purga:</l>
+<l>
+<pb n="0840D"/>Si te non pecudum fibris, non sanguine fuso</l>
+<l>Quaero: nec arcanis numen conjecto sub extis:</l>
+<l>Si scelere abstineo, errori obnoxius: et si</l>
+<l>Opto magis, quam fido, bonus purusque probari.</l> 
+<l>Confessam dignare animam: si membra caduca</l>
+<l>Exsecror, et tacitum si poenitet: altaque sensus</l>
+<l>Formido excruciat, tormentaque sera gehennae</l>
+<l>Anticipat, patiturque suos mens saucia manes.</l> 
+<l>
+<pb n="0841A"/>Da, Pater, haec nostro fieri rata vota precatu.</l> 
+<l>Nil metuam, cupiamque nihil, satis hoc rear esse,</l>
+<l>Quod satis est. Nil turpe velim, nec causa pudoris</l>
+<l>Sim mihi. Non faciam cuiquam, quae tempore eodem</l>
+<l>Nollem facta mihi. Nec vero crimine laedar,</l>
+<l>Nec maculer dubio. Paulum distare videtur</l>
+<l>Suspectus, vereque reus. Male posse facultas</l>
+<l>Nulla sit: at bene posse adsit tranquilla potestas.</l> 
+<l>Sim tenui victu, atque habitu. Sim charus amicis.</l> 
+<l>Et semper genitor, sine vulnere nominis hujus,</l>
+<l>Non animo doleam, non corpore: cuncta quietis</l>
+<l>Fungantur membra officiis: nec saucius ullis</l>
+<l>Partibus amissum quidquam desideret usus.</l> 
+<l>Pace fruar. Securus agam. Miracula terrae</l>
+<l>Nulla putem. Suprema mihi cum venerit hora,</l>
+<l>
+<pb n="0841B"/>Nec timeat mortem bene conscia vita, nec optet.</l> 
+<l>Purus ab occultis cum te indulgente videbor,</l>
+<l>Omnia despiciam, fuerit cum sola voluptas</l>
+<l>Judicium sperare tuum. Quod dum sua differt</l>
+<l>Tempora, cunctaturque dies, procul exige saevum</l>
+<l>Insidiatorem blandis erroribus anguem.</l> 
+<l>Haec pia, sed moesto trepidantia vota reatu,</l>
+<l>Christe, apud aeternum placabilis assere Patrem.</l> 
+<l>Salvator, Deus, ac Dominus, mens, gloria, verbum,</l>
+<l>Filius, ex vero verus, de lumine lumen,</l>
+<l>Aeterno cum Patre manens, in saecula regnans.</l> 
+<l>Consona quem celebrant modulati carmina David:</l>
+<l>Et responsuris ferit aera vocibus, Amen.</l> 
+</div1>
+
+<div1>
+        <head> #Egressio.@# </head>
+<l>
+<pb n="0841C"/>Satis precum datum Deo,</l>
+<l>Quamvis satis numquam reis</l>
+<l>Fiat precatu numinis.</l> 
+<l>Habitum forensem da, puer:</l>
+<l>Dicendum amicis est Ave,</l>
+<l>Valeque quod fit mutuum.</l> 
+<l>Quod cum per horas quatuor . . . . .</l> 
+<l>Inclinet ad meridiem,</l>
+<l>Monendus est jam Sosias.</l> 
+</div1>
+
+<div1>
+        <head> #Locus invitationis.@# </head>
+<l>Tempus vocandis namque amicis appetit;</l>
+<l>Ne nos, vel illi demoremur prandium:</l>
+<l>Propere per aedes curre vicinas, puer.</l> 
+<l>Scis ipse, qui sint. Jamque, dum loquor, redi.</l> 
+<l>
+<pb n="0841D"/>Quinque advocavi. Sex enim convivium</l>
+<l>Cum rege justum: si super, convicium est.</l> 
+<l>Abiit, relicti nos sumus cum Sosia.</l> 
+</div1>
+
+<div1>
+        <head> #Locus ordinandi coqui.@# </head>
+<l>Sosia, prandendum est. Quartam jam totus in horam</l>
+<l rend="indent">
+<pb n="0842A"/>Sol calet: ad quintam flectitur umbra notam.</l> 
+<l>An vegeto madeant condita obsonia gustu,</l>
+<l rend="indent">(Fallere namque solent), experiundo proba.</l> 
+<l>Concute ferventes palmis volventibus ollas,</l>
+<l rend="indent">Tinge celer digitos jure calente tuos:</l>
+<l>Vibranti lambat quos humida lingua recursu.</l> 
+<p>
+          <emph>( #Desunt multa.@# )</emph>
+<l>Quadrupedum, et volucrum, vel cum terrena marinis</l>
+<l>Monstra admiscentur: donec purgantibus Euris</l>
+<l>Difflatae liquidum tenuentur in aera nubes.</l> 
+<l>Nunc fora, nunc lites, laeti modo pompa theatri</l>
+<l>Visitur. Et turmas equitum, caedesque latronum</l>
+<l>Perpetior: lacerat nostros fera bellua vultus:</l>
+<l>Aut in sanguinea gladio grassamur arena.</l> 
+<l>Per mare navifragum gradior pedes: et freta cursu</l>
+<l>
+<pb n="0842B"/>Transilio, et subitis volito super aera pinnis.</l> 
+<l>Infandas etiam veneres, incestaque noctis</l>
+<l>Dedecora, et tragicos patimur per somnia coetus.</l> 
+<l>Perfugium tamen est, quotiens portenta soporum</l>
+<l>Solvit rupta pudore quies, et imagine foeda</l>
+<l>Libera mens vigilat: totum bene conscia lectum</l>
+<l>Pertractat secura manus. Probrosa recedit</l>
+<l>Culpa tori, et profugi minuiscunt crimina somni:</l>
+<l>Cerno, triumphantes inter, me plaudere: rursum</l>
+<l>Inter captivos trahor exarmatus Alanos.</l> 
+<l>Templa deum, sanctasque fores, palatiaque aurea</l>
+<l>Specto, et Sarrano videor discumbere in ostro:</l>
+<l>Et mox fumosis conviva accumbo popinis.</l> 
+<l rend="indent">Divinum perhibent vatem, sub frondibus ulmi</l>
+<l>Vana ignavorum simulacra locasse soporum,</l>
+<l>
+<pb n="0842C"/>Et geminas numero portas: quae fornice eburno</l>
+<l>Semper fallaces glomerat super aera formas:</l>
+<l>Altera, quae veros emittit cornea visus.</l> 
+<l>Quod si de dubiis conceditur optio nobis:</l>
+<l>Deesse fidem laetis melius, quam vana timeri.</l> 
+<l>Ecce ego jam malim falli: nam, dummodo semper</l>
+<l>Tristia vanescant, potius caruisse fruendis,</l>
+<l>Quam trepidare malis. Satis est bene, si metus absit.</l> 
+<l>Sunt et qui fletus, et gaudia controversa</l>
+<l>Conjectent: varioque trahant eventa relatu.</l> 
+<l>Ite per obliquos coeli, mala somnia, mundos,</l>
+<l>Irrequieta vagi qua difflant nubila nimbi.</l> 
+<l>Lunares habitate polos. Quid nostra subitis</l>
+<l>Limina, et angusti tenebrosa cubilia tecti?</l> 
+<l>Me sinite ignavas placidum traducere noctes,</l>
+<l>
+<pb n="0842D"/>Dum redeat roseo mihi Lucifer aureus ortu.</l> 
+<l>Quod si me nullis vexatum nocte figuris</l>
+<l>Mollis tranquillo permulserit aere somnus;</l>
+<l>Hunc lucum, nostro viridis qui frondet in agro</l>
+<l>Ulmeus, excubiis habitandum dedico vestris.</l> 
+</p>
+</div1>
+</body>
+  </text>
+</TEI>
