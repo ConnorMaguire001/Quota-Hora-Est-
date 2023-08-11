@@ -6,8 +6,11 @@ This project seeks to test a new computational method to track diachronic semant
 ## Introduction: 
 There has always been a gap between different branches of linguistics. The largest gap being between historical study and computational methods. However with the rise of new NLP techniques, a change in the methodology of historical study has started to take place. Libraries like NLTK, CLTK, and SpaCy have greatly cut down on the amount of time consuming work that the average linguist must do in order to complete their research. 
 Normally when studying semantic shifts, a researcher has to spend time gathering the occurrences of a word, identifying the period, and disambiguating the word sense at that period.  
+
 Obviously this process is daunting even with the help of computers. Moreover, with the ever growing sizes of corpora nowadays, it is nearly impossible for a researcher to cover all the material alone and to do so without error. As a consequence, finding faster and more accurate ways of completing this process has become more desirable. This project seeks to further close the gap by applying a new computational approach to the tracking of diachronic semantic shifts.  
+
 The approach is largely a recontextualization of a the technique put forth in“Simple, Interpretable and Stable Method for Detecting Words with Usage Change across Corpora”(Gonen et al.2020) and uses a combination of Word2Vec, Cosine Similarity, and Jaccard Similarity to facilitate intermodal comparisons.  In the case of this project, we will be using it to generate a qualitative measure for the stability of a word across periods of time.   
+
 As for the language on which to test the approach, Latin proved to be an excellent candidate. Given its long use as a lingua franca, it has undergone many drastic changes (semantic or otherwise) over the centuries. Moreover, despite it being a dead language, it is very data rich. In other words, it is relatively easy to find large quantities of high quality Latin text data online.  
 
 ## Method: 
@@ -24,7 +27,9 @@ The corpus was split into 3 sub-corpora based on the selected time periods of La
 In order to do the comparisons, the word list of one word from the vocabulary at t0 would be paired up with the word list of the same word from tn. Following the Gonen et al. technique, Jaccard Similarity was used as a metric for measuring the semantic similarity between the words at different periods. Furthermore, all comparisons were done sequentially to track the stability as we moved forward in time. In other words, golden age entries were only compared with silver and silver again compared with patristic.   
 ### Findings:
 Jaccard Similarity in combination with Cosine Similarity allows us to quickly find words with notable shifts in meaning. Moreover, this method allows for us to see when the shift begins and  period-specific wordlists can help capture the semantic start and endpoints of a shift.   
+
 After applying the technique, the range of scores fell between .01 and .32. The highest score belonged to sum, ‘be’, which given that it is a word that plays such an integral role within the Latin language it is unsurprising that it maintained a virtually unchanged meaning over the entire timeline. Conversely, there were many words that had gone under massive semantic changes and thus had scores hovering around 0. For example,albus, meaning white, underwent extreme semantic shifts. Having originally been associated with natural light during, its meaning shifted to take on a more Christian or religious aspect. Its Jaccard similarity score between the Golden and Silver age was .05 and between the Silver and Patristic Age dropped to .01. These scores accurately depict the extreme shifts that word underwent and help solidify this technique as valid means of measuring semantic shifts.   
+
 Ultimately this technique proved to be very easily implemented and output a score and wordlist that was easily understandable. I believe further research could be done using this method as a jumping off point. By looking for words that correspond to a certain topic or particular semantic field, one could get a sense of how Romans viewed that topic. Subsequently one could look at historical accounts to verify those findings. 
 
 
