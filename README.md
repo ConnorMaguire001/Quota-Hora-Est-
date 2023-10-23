@@ -1,5 +1,5 @@
 # Quota-Hora-Est-
-## LATIN WORD MEANING DRIFT TRACKER   
+## A NEW METHOD FOR TRACKING SEMANTIC DRIFT with a test case in Latin 
 ## Abstract:
 This project seeks to test a new computational method to track diachronic semantic shift. By utilizing Word2Vec and Cosine similarity, a word list of the top 50 most similar words can be created for every unique word in a Vocabulary. This process can be done multiple times with separated W2V models, each trained on text from different time periods. By repurposing the technique put forward in “Simple, Interpretable and Stable Method for Detecting Words with Usage Change across Corpora”(Gonen et al.2020), inter-model comparisons can then be quickly and accurately made for the same word at different periods. The testing of this technique was made on temporally tagged Latin corpus spanning 580 years and proved to be an effective and easily implementable way to find notable semantic shifts en masse.
 
